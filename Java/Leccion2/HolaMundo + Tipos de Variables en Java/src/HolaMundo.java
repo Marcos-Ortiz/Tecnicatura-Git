@@ -2,6 +2,7 @@ public class HolaMundo {
     public static void main(String[] args) {
         System.out.println("Hola Mundo desde Java");
         
+        //Tipos de VAriables
         int miVariable = 10;
         System.out.println(miVariable);
         miVariable = 5;

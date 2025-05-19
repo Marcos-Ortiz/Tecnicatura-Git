@@ -1,6 +1,6 @@
 # Leccion 2
 
-a: str = 10.77          #a: str es una referencia, 
+a: str = 10.77          # type: ignore #a: str es una referencia, 
                         # las variables son dinamicas 
                         # y en cualquier momento pueden cambiar el tipo de valor
 print(type(a))

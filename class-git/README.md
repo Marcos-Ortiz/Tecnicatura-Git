@@ -1073,6 +1073,50 @@ Práctica: https://drive.google.com/file/d/1trOr0EnQcvLFy1LAqzGo_-W1M5W9Rtvb/vie
 
 PDF: https://drive.google.com/file/d/1LkqdZ8U1qqjR57v3LDzDLLhXScmIXEUK/view
 
+# Actividad Python Clase 11: Un Día como Programadores
+
+Hoy vamos a simular lo que hace **PyCharm** por nosotros. Ahora que puedes hacer esto, te animo a investigar más sobre los **entornos virtuales de Python** usando un tutor de IA para expandir tus conocimientos.
+
+1.  **Abrir la terminal de Git Bash o terminal en Linux.** Si estás en Windows, ábrela como **administrador**.
+2.  **Creamos una carpeta o directorio:**
+    ```bash
+    mkdir python-final
+    ```
+3.  **Entramos en ella:**
+    ```bash
+    cd python-final
+    ```
+4.  **Iniciamos el repositorio:**
+    ```bash
+    git init
+    ```
+5.  **Creamos un archivo:**
+    ```bash
+    touch finales.py
+    ```
+6.  **Abrimos VSC (Visual Studio Code):**
+    ```bash
+    code .
+    ```
+7.  **En la terminal, ingresamos el comando para saber la versión de Python que tenemos instalada:**
+    ```bash
+    python -V
+    python3 -V
+    ```
+8.  **Creamos el entorno virtual en Python:**
+    ```bash
+    python3 -m venv venv # Creamos el entorno virtual
+    ```
+9.  **Activamos el entorno virtual:**
+    ```bash
+    source venv/bin/activate # Activamos el entorno virtual en Linux
+    venv/scripts/activate # En Windows
+    ```
+10. **Hacemos actualización del pip de Python:**
+    ```bash
+    python3 -m pip install --upgrade pip # Actualizamos el pip
+    ```
+
 ## ¿Qué es Pip y por qué lo actualizamos?
 
 **Pip** es el sistema de gestión de paquetes estándar utilizado para instalar y administrar paquetes de software escritos en Python. Imagínalo como una tienda de aplicaciones para Python: te permite buscar, descargar e instalar bibliotecas y herramientas que otros desarrolladores han creado y compartido. Estas bibliotecas son fragmentos de código que puedes usar en tus propios proyectos para agregar funcionalidades sin tener que escribir todo desde cero.

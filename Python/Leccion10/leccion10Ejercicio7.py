@@ -1,3 +1,4 @@
+# Clase 10 Ejercicio 3:
 # Inicialización de variables
 suma = 0
 

@@ -1,3 +1,4 @@
+//Clase 8 Ejercicio Rectangulo
 import java.util.Scanner;
 
 public class leccion8Rectangulo {

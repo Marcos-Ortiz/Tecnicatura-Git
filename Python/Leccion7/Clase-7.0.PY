@@ -1,3 +1,4 @@
+#Clase7 Ejercicio 1
 # Pedir al usuario un número de mes
 mes = int(input("Ingresa un número de mes (1 al 12): "))
 

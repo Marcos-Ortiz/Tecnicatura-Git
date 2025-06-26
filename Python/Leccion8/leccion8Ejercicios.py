@@ -1,3 +1,4 @@
+#Clase 8 Ejercicios
 maximo = 5
 contador = 0
 while contador <= maximo:

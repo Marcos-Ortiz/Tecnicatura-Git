@@ -1,3 +1,4 @@
+#Clase 7 Ejercicio 2
 # Pedir la edad al usuario
 edad = int(input("Ingresa tu edad: "))
 

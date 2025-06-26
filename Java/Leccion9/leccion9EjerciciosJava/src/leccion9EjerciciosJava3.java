@@ -1,4 +1,4 @@
-
+//Clase 9 Ejercicio 3
 import java.util.Scanner;
 
 public class leccion9EjerciciosJava3 {
@@ -22,7 +22,5 @@ public class leccion9EjerciciosJava3 {
 
         // Imprimir el salario mensual
         System.out.println("El salario mensual del vendedor es: $" + salarioTotal);
-
-        scanner.close();
     }
 }

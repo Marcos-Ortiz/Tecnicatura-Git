@@ -1,13 +1,11 @@
 # Ingreso del número total de elementos
 n_elementos = int(input("¿Cuántos números desea ingresar?: "))
-
 # Inicialización de variables
 i = 0
 suma_pares = 0
 suma_impares = 0
 conteo_pares = 0
 conteo_impares = 0
-
 # Proceso iterativo
 while i < n_elementos:
     num = int(input(f"{i + 1}. Digite un número: "))
@@ -22,7 +20,6 @@ while i < n_elementos:
         conteo_impares += 1
 
     i += 1
-
 # Resultados para pares
 if conteo_pares != 0:
     print("La suma de los números pares es:", suma_pares)

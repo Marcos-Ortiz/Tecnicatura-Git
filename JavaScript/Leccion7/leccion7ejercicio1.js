@@ -1,7 +1,5 @@
 // Ejercicio 1
-
-// Pedir al usuario un numero limite
-
+//Pedir al usuario un numero limite
 //prompt muestra un cuadro de dialogo para ingresar un valor
 //parseint convierte valores String a entero
 let limite = parseInt(prompt("Ingrese un numero limite: "));

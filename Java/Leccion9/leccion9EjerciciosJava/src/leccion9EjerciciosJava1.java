@@ -1,8 +1,7 @@
-
+//Clase 9 Ejercicio 1
 import java.util.Scanner;
 
 public class leccion9EjerciciosJava1 {
-    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,8 +20,5 @@ public class leccion9EjerciciosJava1 {
 
         // Imprimir el resultado
         System.out.println("La suma de las tres calificaciones es: " + suma);
-        
-        scanner.close();
     }
-    
 }

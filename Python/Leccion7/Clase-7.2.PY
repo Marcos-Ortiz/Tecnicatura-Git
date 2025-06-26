@@ -1,3 +1,4 @@
+# Clase 7 Ejercicio 3
 # Pedimos al usuario una calificación entre 0 y 10
 nota = float(input("Ingresa tu calificación (de 0 a 10):"))
 

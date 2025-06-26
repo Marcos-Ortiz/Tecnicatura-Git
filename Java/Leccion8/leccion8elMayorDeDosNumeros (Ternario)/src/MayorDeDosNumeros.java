@@ -1,3 +1,4 @@
+//Clase 8 Ejercicio Mayor de 2 Numeros
 import java.util.Scanner;
 
 public class MayorDeDosNumeros {
@@ -15,13 +16,11 @@ public class MayorDeDosNumeros {
         // Con el operador ternario vemos cual de los numeros es mayor
         int mayor = (numero1 > numero2) ? numero1 : numero2;
 
-        // Mostramos el resultado
+        // Mostramos el resultado en el caso de que sean iguales
         if (numero1 == numero2) {
             System.out.println("\nAmbos numeros son iguales: " + numero1);
         } else {
             System.out.println("\nEl mayor de los dos numeros es: " + mayor);
         }
-
-        scanner.close();
     }
 }

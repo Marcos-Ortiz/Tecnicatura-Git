@@ -1,4 +1,4 @@
-
+//Clase 9 Ejercicio 2
 import java.util.Scanner;
 
 public class leccion9EjerciciosJava2 {
@@ -18,7 +18,5 @@ public class leccion9EjerciciosJava2 {
 
         // Imprimir el resultado
         System.out.println("La cantidad total de dinero entre los tres es: $" + total);
-
-        scanner.close();
     }
 }

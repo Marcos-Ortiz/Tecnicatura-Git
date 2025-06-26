@@ -1,3 +1,4 @@
+#Clase 8
 # Ciclo While (Mientras o durante)
 contador = 0
 condicion = True

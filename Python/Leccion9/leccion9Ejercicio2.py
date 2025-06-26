@@ -1,4 +1,4 @@
-# Ejercicio 2: Calcular la suma de "N" primeros numeros.
+#Clase 9 Ejercicio 2: Calcular la suma de "N" primeros numeros.
 
 # Solicitar al usuario un numero entero positivo. 
 N = int(input("Ingrese un numero a sumarse: "))

@@ -7,6 +7,8 @@
 /*Aplicando variable creada en el root al body de nuestra web*/
 /*Reemplace el body con uso de variables css*/
 body{
+    display: flex;
+    flex-direction: column;
     background: var(--body-bg-color);
     color: var(--colorh1-color);
     font-family: 'Open Sans', sans-serif;
@@ -55,33 +57,7 @@ a{
     margin: 0;
     padding: 0;
     line-height: 1.6; 
-}
-*/
-.sobremi{
-    display: flex;
-    justify-content: center;
-}
-
-.container-sobremi{
-    display: flex;
-    width: 50%;
-    padding: 2rem;
-    margin-top: 5rem;
-    line-height: 2.5rem;
-    font-size: large;
-    color: azure;
-    gap: 5rem;
-    align-items: center;
-}
-
-
-.img-perfil{
-    border-radius: 50%;/* Esto ahora sí la hará circular perfectamente */
-    widht: 200px;
-    height: 200px;
-    object-fit: cover;/* ¡Esta es la clave! Recortará la imagen para que quepa en 200x200px sin distorsionarla */
-    display: block;
-}
+}*/
 
 .experiencia, .estudios{
     display: flex;
@@ -99,6 +75,11 @@ a{
     margin: 8rem;
 }
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Media Queries Agrupadas */
 
 /* Celular, pantallas pequeñas hasta 767px */
@@ -111,27 +92,7 @@ a{
         gap: 1rem;
         align-items: center;
     }
-    .container-sobremi{
-        display: flex;
-        width: 100%;
-        padding: 1rem;
-        margin-top: 1rem;
-        line-height: 2.5rem;
-        font-size: small;
-        flex-direction: column;
-    }
 
-    /*Agregando el responsivo de las secciones experiencia y estudios*/
-    .container-experiencia, .container-estudios{
-        width: 100%;
-        margin: 0rem;
-    }
-    .experiencia, .estudios{
-        width: 100%;
-        padding: 1rem;
-        margin-top: 1rem;
-        font-size: small;
-    }
 }
 /* Tabletas, pantallas medianas entre 768px y 1023px */
 @media (min-widht: 768px) and (max-width: 1023px){
@@ -142,10 +103,7 @@ a{
         gap: 2rem;
         justify-content: center;
     }
-    /*Agregando el responsivo de las secciones experiencia y estudios*/
-    .experiencia, .estudios{
-        width: 75%;
-    }
+
 }
 /* Pantallas grandes, desde 1024px */
 @media (min-width: 1024px){
@@ -157,8 +115,5 @@ a{
         justify-content: flex-end;
         margin: 0 3rem;
     }
-/*Agregando el responsivo de experiencia y estudios*/
-.experiencia, .estudios{
-    width: 75%;
-    }
+
 }

@@ -3,7 +3,10 @@
     --body-bg-color:#262626;
     --text-color:#f0f0f0;
     --colorh1-color:rgb(215,211,211);
+    --fondo-proyectos:#323232; /*agregado en la clase 5: flexbox*/
 }
+    
+
 /*Aplicando variable creada en el root al body de nuestra web*/
 /*Reemplace el body con uso de variables css*/
 body{
@@ -115,5 +118,4 @@ a{
         justify-content: flex-end;
         margin: 0 3rem;
     }
-
 }
